@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kasie's Portfolio</title>
+    <!--normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--favicon-->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="logoBox">
+            <h1>Kasie Chaplick</h1>
+        </div>
+    <!--nav-->    
+        <nav>
+            <ul>
+
+                <li><a href="index.html">About</a></li>
+                <div class="vertical-line" style="height: 10px;"></div>
+
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <div class="vertical-line" style="height: 10px;"></div>
+
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--horizontal rule-->
+    <hr>
+
+    <section>
+        <!--Contact form wrapper-->
+        <div class="whiteBox">
+            <h2>Contact</h2>
+
+            <!--horizonal rule-->
+            <hr>
+            
+            <!--Form-->
+            <form id="contactForm">
+                <div class="formHeaders">Name</div>
+                <input type="text" name="firstname lastname" placeholder="John Smith">
+                <br>
+
+                <div class="formHeaders">Email</div>
+                <input type="email" name="email" placeholder="johnsmith@gmail.com">
+                <br>
+
+                <div class="formHeaders">Message</div>
+                <textarea rows="4" cols="50" name="message" form="contactForm">
+                </textarea><br>
+
+                <input class="submitButton" type="submit" name="submit">
+
+            </form>
+
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <p class="copyright">Copyright &copy;</p>
+    </footer>
+
+</body>
+
+</html>
